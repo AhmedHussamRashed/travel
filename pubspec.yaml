@@ -93,3 +93,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+
+  assets:
+    - assets/images/kia_picanto.png
+    - assets/images/renault_logan.jpg
+

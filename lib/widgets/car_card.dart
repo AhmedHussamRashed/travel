@@ -109,4 +109,3 @@ class CarCard extends StatelessWidget {
     );
   }
 }
-
