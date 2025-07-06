@@ -96,6 +96,10 @@ flutter:
 
 
   assets:
-    - assets/images/kia_picanto.png
-    - assets/images/renault_logan.jpg
+    - assets/images/toyota_2024.webp
+    - assets/images/hyundai_2025.webp
+    - assets/images/mercedes_eqs_2025.jpg
+    - assets/images/bmw_xm.jpg
+    - assets/images/ford_taurus.jpg
+    - assets/images/kia_car.webp
 
