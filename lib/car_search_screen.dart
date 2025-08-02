@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../utils/app_styles.dart';       // والألوان
-import '../widgets/car_card.dart';       // هذا ويدجيت لعرض بطاقة السيارة
+import '../utils/app_styles.dart'; // والألوان
+import '../widgets/car_card.dart'; // هذا ويدجيت لعرض بطاقة السيارة
 import '../widgets/wave_background.dart'; // خلفية مموجة
-import 'car_details_screen.dart';   // شاشة تفاصيل السيارة
-import 'filter_screen.dart';      // شاشة الفلتر
+import 'car_details_screen.dart'; // شاشة تفاصيل السيارة
+import 'filter_screen.dart'; // شاشة الفلتر
 
 class CarSearchScreen extends StatefulWidget {
   const CarSearchScreen({super.key});
@@ -15,8 +15,8 @@ class CarSearchScreen extends StatefulWidget {
 class _CarSearchScreenState extends State<CarSearchScreen> {
   final TextEditingController _searchController = TextEditingController();
 
-
-  final List<Map<String, dynamic>> _cars = [ // قائمة اليارة تحتوي على
+  final List<Map<String, dynamic>> _cars = [
+    // قائمة اليارة تحتوي على
     {
       'name': 'Toyota Land Cruiser 2024',
       'price': '350 Riyals/Day',
@@ -166,8 +166,8 @@ class _CarSearchScreenState extends State<CarSearchScreen> {
                             textAlign: TextAlign.right,
                             decoration: const InputDecoration(
                               hintText: 'Find a car...',
-                              prefixIcon: Icon(
-                                  Icons.search, color: AppColors.primaryBlue),
+                              prefixIcon: Icon(Icons.search,
+                                  color: AppColors.primaryBlue),
                               border: InputBorder.none,
                               contentPadding: EdgeInsets.symmetric(
                                 horizontal: 20,
@@ -211,6 +211,4 @@ class _CarSearchScreenState extends State<CarSearchScreen> {
       ),
     );
   }
-
 }
-
